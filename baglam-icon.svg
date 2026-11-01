@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <title>BAGLAM</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#123A9E"/><stop offset=".55" stop-color="#0A1A5C"/><stop offset="1" stop-color="#060928"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".28" cy=".2" r=".7">
+      <stop offset="0" stop-color="#3B7BFF" stop-opacity=".55"/><stop offset="1" stop-color="#3B7BFF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFE08A"/><stop offset=".5" stop-color="#F0B33A"/><stop offset="1" stop-color="#C47F17"/>
+    </linearGradient>
+    <linearGradient id="goldB" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#FFE08A"/><stop offset=".5" stop-color="#F0B33A"/><stop offset="1" stop-color="#C47F17"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#1E5BFF"/><stop offset="1" stop-color="#45D4FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <rect width="512" height="512" rx="112" fill="url(#glow)"/>
+  <path d="M105.9 382.0 A196.0 196.0 0 0 1 329.4 74.3" fill="none" stroke="url(#blue)" stroke-width="20.0" stroke-linecap="round"/>
+  <path d="M401.7 124.9 A196.0 196.0 0 0 1 376.7 410.5" fill="none" stroke="url(#gold)" stroke-width="20.0" stroke-linecap="round"/>
+  <g transform="translate(135.37 366.25) scale(0.3150 -0.3150)">
+    <path d="M57 0V700H431Q576 700 645.0 648.5Q714 597 714 517Q714 464 685 423Q660 388 618 366Q620 365 623 364Q682 341 714.5 297.5Q747 254 747 193Q747 102 671.5 51.0Q596 0 451 0ZM289 165H431Q470 165 489.5 179.0Q509 193 509.0 220.0Q509 247 489.5 261.0Q470 275 431 275H289ZM289 431H399Q439 431 457.5 444.5Q476 458 476 483Q476 509 457.5 522.0Q439 535 399 535H289Z" fill="#000" opacity=".28" transform="translate(18 -26)"/>
+    <path d="M57 0V700H431Q576 700 645.0 648.5Q714 597 714 517Q714 464 685 423Q660 388 618 366Q620 365 623 364Q682 341 714.5 297.5Q747 254 747 193Q747 102 671.5 51.0Q596 0 451 0ZM289 165H431Q470 165 489.5 179.0Q509 193 509.0 220.0Q509 247 489.5 261.0Q470 275 431 275H289ZM289 431H399Q439 431 457.5 444.5Q476 458 476 483Q476 509 457.5 522.0Q439 535 399 535H289Z" fill="url(#goldB)"/>
+  </g>
+</svg>
