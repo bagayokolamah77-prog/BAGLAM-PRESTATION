@@ -1,0 +1,1 @@
+BAGLAM v1.1.5 — Correctif du reçu de paiement. Déployer le contenu à la racine du projet Vercel existant. Aucune migration SQL. Lire RAPPORT_V1_1_5.md et TESTS_V1_1_5.md. Les documents v1.1.4 conservés sont historiques. Tests réels encore requis. Baseline originale intacte.

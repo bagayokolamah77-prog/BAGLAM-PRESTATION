@@ -1,0 +1,13 @@
+BAGLAM v1.1.4 — CORRECTION CIBLÉE CRÉNEAUX + ICÔNES
+
+Déploiement : déposer ce ZIP sur le même projet Vercel puis Deploy to Production.
+Aucune migration Supabase supplémentaire n'est nécessaire pour cette version.
+
+Modifications ciblées :
+- Inscription : plusieurs créneaux possibles pour une même formation.
+- Catalogue de créneaux construit depuis les horaires déjà configurés dans les formations.
+- Plusieurs créneaux personnalisés peuvent être ajoutés manuellement.
+- Compatibilité : selectedCreneau (ancien champ) reste conservé ; selectedCreneaux contient la liste complète.
+- Icône BAGLAM uniformisée pour navigateur, PWA et raccourci bureau (SVG, PNG 180/192/512, favicon ICO).
+
+Aucun changement demandé n'a été apporté aux factures, paiements, rapports, dépenses, historique ou données existantes.
